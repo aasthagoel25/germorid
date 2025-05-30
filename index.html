@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Germorid</title>
+  <link rel="stylesheet" href="styles2523.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.jpeg" alt="Germorid Logo" class="logo-img" />
+            <span>Germorid</span>
+          </div>
+          
+      
+        <!-- Hamburger Menu Button -->
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <!-- Navigation Links -->
+        <nav id="nav-menu" class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#products" onclick="toggleMenu()">Our Products</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      
+
+  <!-- Hero with video background -->
+  <section id="home" class="video-section">
+    <video autoplay muted loop class="bg-video">
+      <source src="vdo.mp4" type="video/mp4" />
+    </video>
+    <div class="video-overlay">
+      <div class="hero-content">
+        <h1> Elegance. Purity. Germorid
+
+        </h1>
+        <p>Elevate your home with clean and luxurious care daily.</p>
+        <a href="catalogue.pdf" class="cta-button">Discover Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rest of the content can go here -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image">
+              <img src="tltc.jpeg" alt="Toilet Cleaner" />
+            </div>
+            <h3>Toilet Cleaner</h3>
+            <p> Our powerful formula effortlessly tackles stains, kills germs, and neutralizes odors, leaving your toilet spotless and fresh with every use. Designed with eco-conscious ingredients, Germorid offers a deep, long-lasting clean without compromising on safety or sustainability.
+
+            </p>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="bathroomc.jpeg" alt="Bathroom" />
+            </div>
+            <h3>Bathroom Cleaner</h3>
+            <p>Refresh your bathroom with Germorid Bathroom Cleaner. Formulated to tackle tough grime, soap scum, and odors, it provides a deep clean that kills germs while leaving a subtle, long-lasting fragrance. Safe for all surfaces, it ensures a spotless, hygienic bathroom with every use.</p>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="powder.jpeg"alt="Detergent Powder" />
+            </div>
+            <h3>Detergent Powder</h3>
+            <p>Powerful on stains, gentle on fabrics. Germorid Detergent Powder delivers deep cleaning, vibrant freshness, and fabric-safe care—all in one eco-conscious formula. Ideal for everyday laundry, it leaves clothes spotless, soft, and beautifully scented.</p>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="gcleaner.jpeg" alt="Glass Cleaner" />
+            </div>
+            <h3>Glass Cleaner</h3>
+            <p>Achieve streak-free shine with Germorid Glass Cleaner. Our powerful formula effortlessly removes fingerprints, smudges, and dirt, leaving glass surfaces crystal-clear and sparkling. Safe for windows, mirrors, and all glass surfaces, it delivers a spotless finish with a refreshing, clean fragrance.
+
+            </p>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="floorcleaner.jpeg"alt="Floor Cleaner" />
+            </div>
+            <h3>Floor Cleaner</h3>
+            <p>Germorid Floor Cleaner is your solution for effortlessly clean, gleaming floors. Its powerful, yet gentle formula effectively removes dirt, grease, and stains from all floor types, including tile, wood, and laminate. Infused with eco-friendly ingredients, it leaves a refreshing scent while promoting a hygienic, streak-free finish with every use.
+
+</p>
+          </div>
+    </div>
+  </section>
+<!-- About Us Section -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Germorid, we craft high-performance cleaning solutions that blend luxury, science, and care. Designed for discerning households, our products deliver a deep, lasting clean—eliminating germs while preserving the elegance of your space. With eco-conscious ingredients and refined formulations, Germorid transforms everyday cleaning into a sophisticated, health-conscious ritual for the modern home.
+       </p>
+  </section>
+  
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+  
+    <div class="contact-info">
+        <p>
+          <span class="contact-icon">📧</span>
+          <strong>Email:</strong>
+          <a href="mailto:germorid@gmail.com">germorid@gmail.com</a>
+        </p>
+        <p>
+          <span class="contact-icon">📞</span>
+          <strong>Phone:</strong>
+          <a href="tel:+91 8393864959"> +91 8393864959</a>
+        </p>
+        <p>
+            <span class="contact-icon"><a href="https://instagram.com/yourusername" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40">
+              </a></span>
+            <strong>Instagram:</strong>
+            <a href="https://instagram.com/germoridcare" target="_blank">@germoridcare</a>
+          </p>
+          
+      </div>
+  </section>
+  
+  
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="C:\Users\hp\Downloads\WhatsApp Image 2025-04-15 at 11.40.19 AM.jpeg"alt="germorid Logo" />
+    </div>
+    <p>&copy; 2025 Your Website | All Rights Reserved | Made with ❤️By Aastha</p>
+  </footer>
+  
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("nav-menu");
+      menu.classList.toggle("active");
+    }
+  </script>
+  
+</body>
+</html>
